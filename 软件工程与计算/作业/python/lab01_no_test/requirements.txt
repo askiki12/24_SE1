@@ -1,0 +1,24 @@
+Problem 1: The following snippet of code doesn't work! Figure out what is wrong and fix the bugs.
+
+def both_odd(a, b):
+    """Returns True if both a and b are odd numbers.
+    >>> both_odd(-1, 1)
+    True
+    >>> both_odd(2, 1)
+    False
+    """
+    return a and b % 2 == 1 # You can replace this line!
+
+
+
+Problem 2: Write a function that takes a positive integer n and returns its factorial. 
+Factorial of a positive integer n is defined as n!=1×2×3×⋯×n.
+
+def factorial(n):
+    """Return the factorial of a positive integer n.
+    >>> factorial(3)
+    6
+    >>> factorial(5)
+    120
+    """
+    "*** YOUR CODE HERE ***"
